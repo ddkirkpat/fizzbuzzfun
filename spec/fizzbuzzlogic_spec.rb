@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe 'FizzBuzzFun' do
+describe 'FizzBuzzLogic' do
   context 'knows that a number is divisible by' do
     it '3' do
       expect(is_divisible_by_three?(3)).to be_truthy
@@ -25,16 +25,16 @@ describe 'FizzBuzzFun' do
   end
   context 'while playing the game, it returns' do
     it 'the number' do
-      expect(fizzbuzzfun(1)).to eq 1
+      expect(fizzbuzzlogic(1)).to eq 1
     end
     it 'Fizz' do
-      expect(fizzbuzzfun(3)).to eq "Fizz"
+      expect(fizzbuzzlogic(3)).to eq "Fizz"
     end
     it 'Buzz' do
-      expect(fizzbuzzfun(5)).to eq "Buzz"
+      expect(fizzbuzzlogic(5)).to eq "Buzz"
     end
     it 'FizzBuzz' do
-      expect(fizzbuzzfun(15)).to eq "FizzBuzz"
+      expect(fizzbuzzlogic(15)).to eq "FizzBuzz"
     end
   end
 end
