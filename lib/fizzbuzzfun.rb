@@ -1,4 +1,5 @@
-# class FizzBuzzLogic
+class FizzBuzzFun
+
 #    attr_reader :number
 #    def initialize(number)
 #      @number   = number
@@ -33,7 +34,7 @@
       number % divisor == 0
     end
    
-# end
+end
 
-  fizzbuzzloop {|x| puts fizzbuzzprint(x) }
+FizzBuzzFun.fizzbuzzloop {|x| puts FizzBuzzFun.fizzbuzzprint(x) }
 # 1.upto(100) {|number| FizzBuzzLogic.new(number).fizzbuzzprint}
