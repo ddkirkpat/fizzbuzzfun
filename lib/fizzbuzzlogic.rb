@@ -1,8 +1,8 @@
 class FizzBuzzLogic
-    attr_reader :number
-    def initialize(number)
-      @number   = number
-    end
+#    attr_reader :number
+#    def initialize(number)
+#      @number   = number
+#    end
     
     def fizzbuzzprint(number)
       return "FizzBuzz" if is_divisible_by_fifteen?(number)
