@@ -11,7 +11,7 @@ class FizzBuzzView < Mustache
   end
   
   def fizzbuzz
-    FizzBuzzLogic.new.fizzbuzzprint number.to_i
+    FizzBuzzLogic.new.fizzbuzzprint(number)
   end
 
 end
