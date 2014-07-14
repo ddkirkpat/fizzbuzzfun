@@ -6,10 +6,10 @@ class FizzBuzzLogic
   
   def fizzbuzzprint(number)
     result = ''
-    result = 'FizzBuzz' if is_divisible_by_fifteen?(number)
-    result = 'Buzz' if is_divisible_by_five?(number)
-    result = 'Fizz' if is_divisible_by_three?(number)
-    result = number
+    return 'FizzBuzz' if is_divisible_by_fifteen?(number)
+    return 'Buzz' if is_divisible_by_five?(number)
+    return 'Fizz' if is_divisible_by_three?(number)
+    return number
   end
       
   def is_divisible_by_three?(number)
