@@ -3,6 +3,7 @@
 # class iteration of fizzbuzzfun to test for game logic
 
 class FizzBuzzLogic
+  
   def fizzbuzzprint(number)
     return "FizzBuzz" if is_divisible_by_fifteen?(number)
     return "Buzz" if is_divisible_by_five?(number)
