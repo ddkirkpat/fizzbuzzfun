@@ -1,0 +1,9 @@
+---
+# CF manifest for deploying a single instance of FizzBuzzFun
+applications:
+- name: fizzbuzzfun
+  memory: 256MB
+  host: fizzbuzzfun
+  domain: cfapps.io
+  buildpack: ruby_buildpack
+  command: 'bundle exec ruby fizzbuzzfun.rb'
