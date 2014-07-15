@@ -7,27 +7,36 @@ algorithm.
 
 ## To Use Locally
 
-Make sure that you have RubyGems Bundler installed.
+1. Make sure that you have RubyGems Bundler installed.
 
-`$ gem install --user-install bundler
+`$ gem install --user-install bundler`
 
 *Note: That you may have to make sure that you add the local gem path to you .bashrc file.*
 
-Clone the git repository--
+2. Clone the git repository--
 
 `$ git clone https://github.com/ddkirkpat/fizzbuzzfun.git`
 
-Edit fizzbuzzfun.rb, commenting out lines 7-9, save.
+3. Edit fizzbuzzfun.rb, commenting out lines 7-9, save.
 
-Then run the following commands--
+4. Then run the following commands--
 
 ```
 $ cd fizzbuzzfun
 $ bundle exec ruby fizzbuzzfun.rb
 ```
 
-In your browser, enter the following URL...
+5. In your browser, enter the following URL...
 
 `http://localhost:4567/12315`
 
 ...to begin play. Enjoy!
+
+## Using CLI version
+
+To play with the CLI version, run the following command--
+
+`$ bundle exec ruby lib/fizzbuzzcli.rb 12315`
+
+Change the appended number at the end of the command to play with other value inputs.
+
