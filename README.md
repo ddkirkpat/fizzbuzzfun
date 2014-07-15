@@ -52,7 +52,7 @@ $ bundle exec ruby fizzbuzzfun.rb```
 
 To play with the CLI version, run the following command--
 
-`$ bundle exec ruby lib/fizzbuzzcli.rb 12315`
+`$ bundle exec ruby fizzbuzzcli.rb 12315`
 
 Change the appended number at the end of the command to play with other value inputs.
 
