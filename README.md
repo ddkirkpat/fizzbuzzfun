@@ -9,7 +9,7 @@ algorithm.
 
 FizzBuzzFun is meant to be a learning tool. It demonstrating assorted principles behind how to build a web
  application in Ruby using practical object oriented design, Sinatra web framework with Mustache, TTD with
-  rspec, TravisCI enablement, as well as deployment into Cloud Foundry's Pivotal Web Services PaaS.
+  rspec, continuous Integration using TravisCI, as well as deployment into Cloud Foundry's Pivotal Web Services PaaS.
 
 ## To Use in Cloud Foundry's Pivotal Web Services
 
@@ -45,7 +45,7 @@ $ cf push```
 $ bundle exec ruby fizzbuzzfun.rb```
 
 5. In your browser, enter the following URL...
-`http://localhost:4567/12315`
+`http://localhost:4567/`
 ...to begin play.
 
 ## Using CLI version
