@@ -9,7 +9,7 @@ algorithm.
 
 FizzBuzzFun is meant to be a learning tool. It demonstrating assorted principles behind how to build a web
  application in Ruby using practical object oriented design, Sinatra web framework with Mustache, TTD with
-  rspec, continuous Integration using TravisCI, as well as deployment into Cloud Foundry's Pivotal Web Services PaaS.
+  rspec, Continuous Integration using TravisCI, as well as deployment into Cloud Foundry's Pivotal Web Services PaaS.
 
 ## To Use in Cloud Foundry's Pivotal Web Services
 
@@ -61,4 +61,5 @@ Change the appended number at the end of the command to play with other value in
 1. Run the following commands--
 ```$ cd fizzbuzzfun
 $ rspec spec -fd```
+
 
