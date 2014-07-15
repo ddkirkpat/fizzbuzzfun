@@ -1,1 +1,1 @@
-require 'fizzbuzzfun'
+require 'fizzbuzzlogic'

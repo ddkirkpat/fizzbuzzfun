@@ -1,5 +1,8 @@
 # FizzBuzzFun Gemfile
 source "https://rubygems.org"
-
-gem "rake"
-gem "rspec"
+ruby '1.8.7'
+gem 'extensions'
+gem 'rake'
+gem 'sinatra'
+gem 'mustache'
+gem 'rspec'
