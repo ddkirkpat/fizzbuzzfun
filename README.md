@@ -7,9 +7,8 @@ algorithm.
 
 ## To Use Locally
 
-1. Make sure that you have RubyGems Bundler installed.
+1. Make sure that you have RubyGems Bundler installed--
 `$ gem install --user-install bundler`
-*Note: That you may have to make sure that you add the local gem path to you .bashrc file.*
 
 2. Clone the git repository--
 `$ git clone https://github.com/ddkirkpat/fizzbuzzfun.git`
