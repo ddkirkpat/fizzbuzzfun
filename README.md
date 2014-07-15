@@ -56,3 +56,9 @@ To play with the CLI version, run the following command--
 
 Change the appended number at the end of the command to play with other value inputs.
 
+## Running the rspec tests
+
+1. Run the following commands--
+```$ cd fizzbuzzfun
+$ rspec spec -fd```
+
