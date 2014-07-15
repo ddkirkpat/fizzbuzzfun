@@ -1,0 +1,8 @@
+---
+applications:
+- name: fizzbuzzfun
+  memory: 128MB
+  host: fizzbuzzfun
+  domain: cfapps.io
+  buildpack: ruby_buildpack
+  command: 'bundle exec ruby fizzbuzzfun.rb'
