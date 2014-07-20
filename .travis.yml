@@ -1,12 +1,14 @@
 language: ruby
 deploy:
-  provider: cloudfoundry
-  organization: ddkirkpat-org
+  provider:
+    provider: cloudfoundry
   api: https://api.run.pivotal.io
-  username: ddkirkpat@gmail.com
-  edge: true
+  username: dkirkpat@gmail.com
   password:
-    secure: LDXFrtGJIZnIg9vaVFuctrFtzougM/5OpJXlUufdVKgxqTqYu/fQuKdqS4uwMt8GQiliofa0BbOcKt2gh8C1tUlDzRjpVh++8FY0M8II/254hwGT/uONvN1rkptBoST9R0u7g4Ddv5IxH1FAGiKNwK/vfppT89MC/1pFzweqUIU=
+    secure: TB4s59jQGR7yr6rMOhvhX4AKd/JBNgDtlriAOnr5OIbrvS6CuHWGxulw7cAkX+nc9YkXck8MIzo6im48V6dUYmwGxrVXRrJUBAATSCBf+B+Y34NS5Djn2Qq6Sg2Mq9m+gno9qvQfYUerMlpxpI81o0TYRN6Kc00EhSKEANLs+fA=
+  organization: ddkirkpat-org
   space: production
+  on:
+    repo: ddkirkpat/fizzbuzzfun
 rvm:
 - 1.9.3
