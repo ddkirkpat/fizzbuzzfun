@@ -1,12 +1,12 @@
 language: ruby
-deploy: 
+deploy:
   provider: cloudfoundry
   organization: ddkirkpat-org
   api: https://api.run.pivotal.io
   username: ddkirkpat@gmail.com
   edge: true
-  password: 
-    secure: NeC3pHlpdWEg2LS5D7kN5PoRb5wgSNNyf2Kfdk6RNot5clsdz1NxIqChu4r7qvQCZEbjlzmXbdtMZayZa96XC2LGC3m3y1yLXuol5IZeFkOXR41H6VkiFJNADW5gpqzW8LIWIvwWm7nVldBLVrfcelQw/r+1tjhIOUPf8Neqhpk=
+  password:
+    secure: LDXFrtGJIZnIg9vaVFuctrFtzougM/5OpJXlUufdVKgxqTqYu/fQuKdqS4uwMt8GQiliofa0BbOcKt2gh8C1tUlDzRjpVh++8FY0M8II/254hwGT/uONvN1rkptBoST9R0u7g4Ddv5IxH1FAGiKNwK/vfppT89MC/1pFzweqUIU=
   space: production
-rvm: 
+rvm:
 - 1.9.3
