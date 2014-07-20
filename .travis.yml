@@ -1,3 +1,12 @@
 language: ruby
 rvm:
   - 1.8.7
+deploy:
+  edge: true
+  provider: cloudfoundry
+  username: ddkirkpat@gmail.com
+  password: T00Cut32
+  api: https://api.run.pivotal.io
+  organization: ddkirkpat-org
+  space: production
+  
