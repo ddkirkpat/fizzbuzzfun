@@ -7,6 +7,6 @@ deploy:
   edge: true
   password:
     secure: LDXFrtGJIZnIg9vaVFuctrFtzougM/5OpJXlUufdVKgxqTqYu/fQuKdqS4uwMt8GQiliofa0BbOcKt2gh8C1tUlDzRjpVh++8FY0M8II/254hwGT/uONvN1rkptBoST9R0u7g4Ddv5IxH1FAGiKNwK/vfppT89MC/1pFzweqUIU=
-  space: development
+  space: production
 rvm:
 - 1.9.3
