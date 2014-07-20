@@ -7,9 +7,9 @@ algorithm.
 
 ## Why FizzBuzzFun?
 
-FizzBuzzFun is meant to be a learning tool. It demonstrating assorted principles behind how to build a web
+FizzBuzzFun is meant to be a learning tool. It demonstrates assorted principles behind how to build a web
  application in Ruby using practical object oriented design, Sinatra web framework with Mustache, TTD with
-  rspec, Continuous Integration using TravisCI, as well as deployment into Cloud Foundry's Pivotal Web Services PaaS.
+  rspec, as well as Continuous Deployment using TravisCI into Cloud Foundry's Pivotal Web Services PaaS.
 
 ## To Use in Cloud Foundry's Pivotal Web Services
 
