@@ -2,7 +2,6 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
-    extensions (0.6.0)
     mustache (0.99.5)
     rack (1.5.2)
     rack-protection (1.5.3)
@@ -30,7 +29,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  extensions
   mustache
   rake
   rspec

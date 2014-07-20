@@ -1,3 +1,13 @@
 language: ruby
+deploy:
+  provider: cloudfoundry
+  api: https://api.run.pivotal.io
+  username: ddkirkpat@gmail.com
+  password:
+    secure: DMAqcrb3dlh02SR0gOC+VAF4h7jeDClVyXInh35NRz6GlB6PZ0ujuBR17qp3+8/qVdbQKrcPZ+7iW895KE/lFr+Sjjea554IL4hEoRgLpv629EyVJcDzlVCUAtT8U3pcqHNHa61sqCk1wu+ShQZh3CGAHIBNhsG+reuSUcOB8xk=
+  organization: ddkirkpat-org
+  space: production
+  on:
+    repo: ddkirkpat/fizzbuzzfun
 rvm:
-  - 1.8.7
+- 1.9.3

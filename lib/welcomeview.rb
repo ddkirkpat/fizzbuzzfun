@@ -1,5 +1,4 @@
 require 'rubygems'
-require 'extensions/kernel'
 require 'mustache'
 
 class WelcomeView < Mustache
