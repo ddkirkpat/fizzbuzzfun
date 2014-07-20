@@ -1,6 +1,5 @@
 require 'rubygems'
 require 'sinatra'
-require 'extensions/kernel'
 require_relative 'lib/welcomeview'
 require_relative 'lib/fizzbuzzview'
 

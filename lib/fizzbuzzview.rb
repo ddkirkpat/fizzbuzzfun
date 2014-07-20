@@ -1,5 +1,4 @@
 require 'rubygems'
-require 'extensions/kernel'
 require 'mustache'
 require_relative 'fizzbuzzlogic'
 
