@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'sinatra'
-require_relative 'lib/welcomeview'
-require_relative 'lib/fizzbuzzview'
+require_relative '../lib/welcomeview'
+require_relative '../lib/fizzbuzzview'
 
 # config.assets.initialize_on_precompile = false
 set :environment, :production
